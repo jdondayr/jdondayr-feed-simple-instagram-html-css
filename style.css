@@ -1,0 +1,54 @@
+/***** GENERAL *****/
+
+
+body {
+    font: 20px "Roboto Slab", serif;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(232, 230, 230);
+}
+
+/***** HEADER ******/
+
+header {
+    display: flex; justify-content: center; align-items: center;
+    
+    background: white;
+}
+
+/***** MAIN ********/
+
+main {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 60px;
+    margin-top: 60px; margin-bottom: 60px;
+}
+
+main img {
+    display: block;
+    width: 700px; 
+}
+
+        .marco-foto {
+            width: 700px; height: fit-content;
+        }
+
+                .top-side, .bottom-side {
+                    display: flex; justify-content: space-between; align-items: center;
+                    background: white;
+
+                }
+                .top-side {
+                    min-height: 60px;
+                }
+                .bottom-side {
+                    min-height: 80px;
+                    font-size: 17px;
+                    color: rgb(101, 99, 99);
+                }
+                        .title, .description {margin-left: 10px;}
+                        .title {font-weight: bolder;}
+                        .date {
+                            color: gray;
+                            margin-right: 10px;
+                        }
